@@ -32,6 +32,7 @@ body {
 .about {
   margin-top: 40px;
   margin-bottom: 40px;
+  padding: 50px;
 }
 
 .header {
@@ -73,4 +74,7 @@ body {
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.port1{
+  margin-bottom: 20px;
 }
