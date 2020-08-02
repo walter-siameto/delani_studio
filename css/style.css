@@ -75,6 +75,97 @@ body {
   margin-bottom: 40px;
 }
 
-.portrow1{
+.portfolio {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.portrow1 {
   margin-bottom: 30px;
+}
+
+.contacts {
+  background: url(assets/c_image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 620px;
+}
+.socialmedia{
+  text-align: center;
+  margin-top: 30px;
+}
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 50px;
+  text--align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 200px;
+        margin: 0 auto;
+
 }
