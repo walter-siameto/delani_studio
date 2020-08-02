@@ -1,3 +1,46 @@
-body{
+* {
+  margin: 0px
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #F5F1F1;
+  font-family: "Lato", sans-serif;
+}
+
+.part1 {
+  background: url(assets/h_img.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 620px;
+
+}
+
+.bannertext {
+  color: white;
+  text-emphasis: bold;
+  background: transparent;
+  text-align: center;
+  font-size-adjust: auto;
+  padding: 30px;
+  margin-top:70px;
+
+}
+
+.header{
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.head{
+  text-align: center;
+    font-size: 17px;
 }
