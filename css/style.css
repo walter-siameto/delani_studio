@@ -1,95 +1,37 @@
-* {
-  margin: 0px
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.part1 {
-  background: url(assets/h_img.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 620px;
-}
-
-.bannertext {
-  color: white;
-  text-emphasis: bold;
-  background: transparent;
+.container-fluid {
   text-align: center;
-  font-size-adjust: auto;
-  padding: 30px;
-  margin-top: 70px;
+  padding-left: 10px;
+  margin: 0px;
+  align-content: center;
 }
-
-.about {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 50px;
+.header box{
+  color: #fff;
 }
-
 .header {
-  text-align: center;
-  font-size: 27px;
-  font-weight: bold;
-  text-decoration: underline;
+  background-image: url(assets/h_img.jpg);
+  background-size: cover;
+  height: 550px;
+  background-repeat: no-repeat;
 }
 
-.head {
+.abt{
+  margin: 30px;
   text-align: center;
-  font-size: 17px;
 }
 
-.services {
-  background: url(assets/s_image.jpg) no-repeat;
-  background-position: center;
+.service {
+  background-image: url(assets/s_image.jpg);
   background-attachment: fixed;
   height: 420px;
+  background-repeat: no-repeat;
 }
 
-.servtext {
-  text-align: center;
-  padding: 40px;
-  margin: 40px;
-  color: #fff;
-}
-
-.whatwedo {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.design-showing{
-  display: none;
-}
-
-.header3 {
-  text-align: center;
-  font-size: 27px;
-  font-weight: bold;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.portfolio {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.portrow1 {
-  margin-bottom: 30px;
-}
-h3 {
-  color: #fff;
-}
 #contacts {
   background: url(assets/c_image.jpg) no-repeat;
   background-position: center;
@@ -119,6 +61,120 @@ input.form-control {
     background: transparent;
     color: #0062cc;
 }
+
+.port {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.work {
+  size: inherit;
+  padding: 10px;
+  padding-left: 10px;
+}
+
+
+
+.we_do {
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+
+.abt {
+  padding-left: 50px;
+  text-align: center;
+}
+
+#h2we-do {
+  height: 100px;
+  text-align: center;
+  margin: 23px;
+}
+
+#myTextarea {
+  background-color: transparent;
+  color: aliceblue;
+  border: 2px gray solid;
+}
+
+.input {
+  background-color: transparent;
+  color: aliceblue;
+  border: 2px gray solid;
+}
+
+.des_p {
+  display: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dev_p {
+  display: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.prod_p {
+  display: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+#design {
+  cursor: pointer;
+}
+
+#dev {
+  cursor: pointer;
+}
+
+#prod {
+  cursor: pointer;
+}
+
+.port p {
+  display: none;
+  text-align: center;
+  position: absolute;
+}
+
+/*media query */
+@media screen and (max-width:700px) {
+  .box {
+    width: 635px;
+    height: 450px;
+    padding: 0px;
+  }
+
+  .box2 {
+    width: 635px;
+    height: 450px;
+    padding: 00px;
+  }
+
+  #design {
+    padding-bottom: 50px;
+    width: 50px;
+  }
+
+  #dev {
+    padding-bottom: 50px;
+    width: 50px;
+  }
+
+  #prod {
+    padding-bottom: 50px;
+    width: 50px;
+  }
+
+  .port {
+    width: 150px;
+    display: inherit;
+    columns: initial 2;
+  }
+}
+
 .socialmedia{
   text-align: center;
   margin-top: 30px;
@@ -180,21 +236,4 @@ input.form-control {
 .fa-rss {
   background: #ff6600;
   color: white;
-}
-
-footer {
-  text-align: center;
-  margin: 20px;
-}
-
-h4 {
-  font-size: 15px;
-}
-
-
-@media screen and (min-width: 768px) {
-    #adv-search {
-        width: 200px;
-        margin: 0 auto;
-
 }

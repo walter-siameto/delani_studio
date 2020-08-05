@@ -2,178 +2,129 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewpoint" content="width=device-width, initial scale=1">
-  <title>Delani_Studio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delani Studio</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&amp;subset=latin-ext&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-  <div class="continer">
-    <!--start banner section-->
-    <div class="part1">
-      <div class="row">
+  <div class="container-fluid">
+    <div class="header box">
+      <br><br><br><img src="css/assets/logo.png" alt="logo" style="margin-top:50px;"><br>
+      <h1 style="color:#fff">WELCOME <br> TO DELANI STUDIO</h1>
+      <p style="color:#fff">PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p> <br><br>
+      <img src="css/assets/mouse_click.png" alt="mouse_click" id="mouse">
+    </div>
+
+    <div class="abt">
+      <div class="row ">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-          <div class="bannertext">
-            <br><br><img src="css/assets/logo.png">
-            <h1><br>WELCOME<BR>TO DELANI STUDIO</h1><br>
-            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p><br><br>
-            <img src="css/assets/mouse_click.png" alt=""><br><br><br>
-          </div>
+          <h2>ABOUT US</h2>
+          <p>When you work with us, you are part of a team of committed collaborators.
+            All aspectd of our software development process are intergrated, interactive and agile</p>
+          <p>Our approach unifies design, development and product management to create exceptional products</p>
+          <p>We start every project by understanding your business goals, the user needs and product requirements.</p>
+          <p>Then we help translate them int effective and elegant solutions.</p>
         </div>
         <div class="col-md-3"></div>
       </div>
     </div>
-    <!--end banner section-->
 
-    <!--start aboutus section-->
-    <div class="about">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="header">
-            <h2>ABOUT US</h2>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="head">
-            <p>When you work with us, you are part of a team of committed collaborators.<br>
-              All aspects of our software development process are integrated, iterative and agile.<br>ur approach unifies design, development and
-              project management to create exceptional products.<br>
-              We start each project by understanding our business goals,<br>
-              the user's needs and the products requirements.<br>
-              Then we help translate them into effective and elegant solutions</p>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
+    <div class="service box2" style="color:#fff;">
+      <br><br><br><br>
+      <h2>SERVICES</h2>
+      <p>Before we sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision.</p>
+      <p>The outcome of this scoping session is a proposal or a high-level statement of work</p>
+      <p>Based on your requirement, we can provide a complete offering or just the pieces you need.</p>
     </div>
-    <!--end about us section-->
 
-    <!--start services section-->
-    <div class="services">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="servtext">
-            <h2>SERVICES</h2>
-            <p>Before We sign a contract or write a line of code, our team will spend the necessary
-              time needed to understand our product vision.
-              The outcome of this scoping session is a proposal or high-level statement of work.
-              Based on your requirements, we can provide a complete offering or just the pieces
-              you need.</p>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-    <!--end services section-->
-
-    <!--start what we do section-->
-    <div class="whatwedo">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="header3">
-            <h2>WHAT WE DO</h2>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-
-      <div class="row">
+    <div class="we_do">
+      <h2 id="h2we-do">WHAT WE DO</h2>
+      <div class="row ">
         <div class="col-md-4">
-          <div class="design-hidden">
-            <img src="css/assets/design_icon.png"><br><br>
-            <p>DESIGN</p>
-          </div>
-          <div class="design-showing">
-            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
-              user feedback and work with you to make sure what gets built is what is needed.</p>
-          </div>
+          <img src="css/assets/design_icon.png" alt=" design" id="design">
+          <h4 class=" des_p"><strong>Design</strong></h4>
+          <p class="des_p">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            Throughout your project, our designers create and implement visual design and workflows,
+            solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
+
         <div class="col-md-4">
-          <div class="design-hidden">
-            <img src="css/assets/dev_icon.png"><br><br>
-            <p>DEVELOPMENT</p>
-          </div>
-          <div class="design-showing">
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair
-              programming.</p>
-          </div>
+          <img src="css/assets/dev_icon.png" alt="development" id="dev">
+          <h4 class="dev_p"> <strong>Development</strong> </h4>
+          <p class="dev_p">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+            They collaborate with your team to write, and improve code on a daily basis,
+            using proven practices such as test-driven development and pair programming.
+          </p>
         </div>
+
         <div class="col-md-4">
-          <div class="design-hidden">
-            <img src="css/assets/product_icon.png"><br><br>
-            <p>PROJECT MANAGEMENT</p>
-          </div>
-          <div class="design-showing">
-            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
-          </div>
+          <img src="css/assets/product_icon.png" alt="product" id="prod">
+          <h4 class="prod_p"><strong>Product Management</strong></h4>
+          <p class="prod_p">Planning and development is iterative. Because we are constantly coding and testing,
+            the products we build are always ready to go live.
+            This iterative process allows for changes as business requirements evolve.</p>
         </div>
       </div>
     </div>
-    <!--end what we do section-->
 
-    <!--start porfolio section-->
-    <div class="portfolio">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="header3">
-            <h2>PORTFOLIO</h2>
-          </div>
+    <div>
+      <h2>PORTFOLIO</h2><br>
+      <div class="port row">
+        <div class="col-md-2 "></div>
+        <div class=" im1 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work1.jpg" alt="work1" id="image1">
+          <p id="w1">Work1</p>
         </div>
-        <div class="col-md-2"></div>
+        <div class=" im2 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work2.jpg" alt="work2" id="image2">
+          <p id="w2">Work2</p>
+        </div>
+        <div class=" im3 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work3.jpg" alt="work3" id="image3">
+          <p id="w3">Work3</p>
+        </div>
+        <div class="im4 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work4.jpg" alt="work4" id="image4">
+          <p id="w4">Work4</p>
+        </div>
+        <div class="col-md-2 "></div>
       </div>
 
-      <div class="portrow1">
-        <div class="row">
-          <div class="col-sm-2"></div>
-          <div class="col-md-2"><img src="css/assets/work1.jpg" width="250px" height=-"200px">
-          </div>
-          <div class="col-md-2"><img src="css/assets/work2.jpg" width="250px" height=-"200px">
-          </div>
-          <div class="col-md-2"><img src="css/assets/work3.jpg" width="250px" height=-"200px">
-          </div>
-          <div class="col-md-2"><img src="css/assets/work4.jpg" width="250px" height=-"200px">
-          </div>
-          <div class="col-sm-2"></div>
+      <div class="port row">
+        <div class="col-md-2 "></div>
+        <div class="im5 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work5.jpg" alt="work5" id="image5">
+          <p id="w5">Work5</p>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-2"><img src="css/assets/work5.jpg" width="250px" height=-"200px">
+        <div class="im6 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work6.jpg" alt="work6" id="image6">
+          <p id="w6">Work6</p>
         </div>
-        <div class="col-sm-2"><img src="css/assets/work6.jpg" width="250px" height=-"200px">
+        <div class="im7 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work7.jpg" alt="work7" id="image7">
+          <p id="w7">Work7</p>
         </div>
-        <div class="col-sm-2"><img src="css/assets/work7.jpg" width="250px" height=-"200px">
+        <div class="im8 col-md-2 work">
+          <img class="img-fluid" src="css/assets/work8.jpg" alt="work8" id="image8">
+          <p id="w8">Work8</p>
         </div>
-        <div class="col-sm-2"><img src="css/assets/work5.jpg" width="250px" height=-"200px">
-        </div>
-        <div class="col-sm-2"></div>
+        <div class="col-md-2 "></div>
       </div>
     </div>
-    <!--end porfolio section-->
 
-    <!--start contact us section-->
     <!--Contact Us-->
     <div class="jumbotron" id="contacts">
       <br>
-      <h3 class="contact text-center">CONTACT US</h3>
+      <h3 class="contact text-center" style="color:#fff;">CONTACT US</h3>
       <div class="container">
         <div class="row">
           <div class="col">
@@ -199,9 +150,7 @@
             </form>
           </div>
         </div>
-
       </div>
-
     </div>
     <!--end contact us section-->
 
@@ -224,17 +173,11 @@
       <div class="col-sm-3"></div>
     </div>
     <!--end social media section-->
-
-    <footer>
-      <div class="row">
-        <div class="col-md-12">
-          <h4>DELANI STUDIO<BR>2020</h4>
-        </div>
-      </div>
-    </footer>
+    <div class="footer">
+      <p>Delani Studio <br>2019</p>
+    </div>
 
   </div>
+</body>
 
-  <!--js scripts-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" </body>
-    < /html>
+</html>
