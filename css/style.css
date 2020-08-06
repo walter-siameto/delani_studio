@@ -3,6 +3,45 @@ body {
   padding: 0px;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+#mc_embed_signup {
+  background: transparent;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+}
+
+#contacts {
+  background: url(assets/c_image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+}
+.contact text-center{
+  color: #fff;
+}
+form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+
+input.form-control {
+    background: transparent;
+    color: #0062cc;
+}
+
+
 
 .container-fluid {
   text-align: center;
@@ -32,35 +71,6 @@ body {
   background-repeat: no-repeat;
 }
 
-#contacts {
-  background: url(assets/c_image.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 420px;
-}
-.contact text-center{
-  color: #fff;
-}
-.form-control {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #fff;
-    background-color: transparent;
-    background-clip: padding-box;
-    border: 1px solid #fff;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-
-}
-input.form-control {
-    background: transparent;
-    color: #0062cc;
-}
 
 .port {
   margin-left: 50px;
@@ -72,9 +82,6 @@ input.form-control {
   padding: 10px;
   padding-left: 10px;
 }
-
-
-
 .we_do {
   padding-bottom: 100px;
   padding-left: 50px;
